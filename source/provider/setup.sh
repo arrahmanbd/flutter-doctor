@@ -19,7 +19,7 @@ function setUp() {
     # Perform actions based on user's choice
     case $choice in
         1)
-        printT "${SELECTED}(Arch)"
+        printS "✔ ${SELECTED}(Arch)"
         if ! command -v zenity &>/dev/null; then
         printE "${ZENITY_ERROR}"
         printS "${DONT_WORRY}"
@@ -30,7 +30,7 @@ function setUp() {
         environment
         ;;
         2)
-        printT "${SELECTED}(Debian)"
+        printS "✔ ${SELECTED}(Debian)"
         if ! command -v zenity &>/dev/null; then
         printE "${ZENITY_ERROR}"
         printS "${DONT_WORRY}"
