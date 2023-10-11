@@ -40,7 +40,7 @@ function archPack(){
       sudo pacman -Syu --noconfirm jdk17-openjdk
       printS "Installing CMake and Ninja..."
       sleep 1
-      sudo pacman -Syu --noconfirm cmake ninja
+      sudo pacman -Syu --noconfirm cmake clang ninja
 }
 
 function debPack(){

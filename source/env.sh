@@ -12,4 +12,5 @@ function environment() {
 function setPath(){
   local path_value="${ENVIRONMENT}"
   echo "$path_value" >> ~/.bashrc
+  echo "$path_value" >> ~/.zshrc
 }
