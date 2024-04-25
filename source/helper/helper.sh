@@ -7,15 +7,18 @@ function systemCheck(){
     dir "${FOLDER_CREATED}"
     set_action "Checking" check
 }
-function sysInfo(){
-    printB "✔ $(cat /etc/os-release | grep '^NAME=')"
+function sysInfo() {
+    printB "✔ $(grep '^NAME=' /etc/os-release | cut -d'=' -f2- | tr -d '"')"
     mem_total=$(grep 'MemTotal' /proc/meminfo | awk '{print $2}')
-    mem_total_gb=$(echo "scale=2; $mem_total / 1024 / 1024" | bc)
+    mem_total_gb=$((mem_total / 1024 / 1024))
     printB "✔ RAM: $mem_total_gb GB"
-    if (( $(echo "$mem_total_gb < 4" | bc -l) )); then
-    printE "✗ Upgrade your RAM"
+    # Check if RAM is less than 4GB
+    if (( mem_total_gb < 4 )); then
+        printE "✗ Upgrade your RAM"
     fi
 }
+
+
 function showHelp() {
     printT "Help & Options"
     printB "See the Documentation or Watch the Video"
@@ -28,16 +31,15 @@ function showHelp() {
     echo
     continued
 }
-function checkFiles(){
-    if ls ~/Downloads/* | grep -q -E 'flutter_linux*' && ls ~/Downloads/* | grep -q -E 'Sdk*'
-then
-    printS "✔ Both files exist in ~/Downloads"
-else
-    printS "➥ I think, Required files are missing. ~/Downloads directory"
-fi
- printB "───────────────"
-
+function checkFiles() {
+    if ls ~/Downloads/{flutter_linux*,Sdk*} >/dev/null 2>&1; then
+        printS "✔ Ready to install"
+    else
+        printS "▶ Did you downloaded flutter & sdk from release?? 🤔 --links"
+    fi
+    printB "───────────────"
 }
+
 #Show Download LInk
 function showLinks(){
     printT "Grabbing Links"

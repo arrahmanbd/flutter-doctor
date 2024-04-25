@@ -3,21 +3,27 @@ FlutterDoc
 
 ![FlutterDoctor](assets/setup.png)
 
-FlutterDoc is a convenient bash script that automates the installation process of Flutter on any Linux systems. With just one click, you can have Flutter up and running on your machine, ready for developing cross-platform applications.
-Tested on Arch, Ubuntu, Debian.
+Hey there, fellow coder! Welcome to the FlutterDoc extravaganza! 🎉 FlutterDoc is your trusty sidekick, a bash script wizard designed to make installing Flutter on Linux as smooth as butter on a hot pancake! 🥞 With FlutterDoc, you'll be crafting cross-platform masterpieces in no time! Tested and approved on the coolest Linux distros like Arch, Ubuntu, Debian, and even Kali! 🐧
 
-Prerequisites
+Prerequisites 📋
 -------------
 
 
-Before using this script, ensure that you have the following prerequisites installed on your system:
+Before diving into the FlutterDoc wonderland, make sure your system meets the following requirements:
 
-*   Linux operating system (tested on Arch, Ubuntu, Debian, and Kali)
+*  A computer you get from your great great grand father with A snazzy Linux operating system (tried and true on Arch, Ubuntu, Debian, and Kali)
+*  Download Flutter and Android SDK Latest Version from the link below.
 
-Installation
+    [![FlutterDoctor](assets/android_sdk.png)]([your_link_here](https://github.com/arrahmanbd/flutter-doctor/releases/download/sdk_linux_v.1.0/Sdk.tar.xz))
+
+    [![FlutterDoctor](assets/flutter_sdk.png)](https://docs.flutter.dev/release/archive?tab=linux)
+
+
+How to Run: 🛠️
 ------------
 
-To use FlutterDoc, follow these steps:
+Let's get this party started, shall we?
+
 
 1.  Clone this repository to your local machine:
     
@@ -27,58 +33,38 @@ To use FlutterDoc, follow these steps:
     
     `cd flutter-doctor`
     
-3.  Make the script executable:
+3.  Run the script:
     
-    `chmod +x run.sh`
+    `./install.sh`
     
-4.  Run the script:
-    
-    `./run.sh`
-    
-    The script will automatically download and install the latest version of Flutter on your system.
+Watch the magic happen as FlutterDoc effortlessly fetches and installs the latest Flutter version on your system! 🎩✨
     
 
-Usage [OPTIONS]
+Usage [OPTIONS] 💡
 -----
 
-Once this repo cloned is complete, you can start using FlutterDoc right away. Here are some useful commands to get started:
+Now that you've summoned the FlutterDoc genie, let's see what tricks it has up its sleeve:
 
 *   **Show Help:**
     
-    To show help screen
+    Need a guiding hand? Just wave your magic wand:
     
-    `./run.sh --help`
+    `./install.sh --help`
     
 *   **Get Download Links:**
+  
+    Curious about the secret sauce? Ask FlutterDoc for the scoop:
     
-    To get the download link
-    
-    `./run.sh --link`
+    `./install.sh --link`
     
 *   **AI Auto setup:**
     
-    To start auto download (Alpha Version).
+     Feeling adventurous? Dive into the realm of AI wizardry (Alpha Version)! 🤖✨
     
-    `./run.sh --ai`
+    `./install.sh --ai`
     
-    This will launch auto setup.But not recommended.
+    Just remember, this option is like stepping into the unknown—proceed with caution, brave soul!  ***Not Recommended**
     
-
-How To Use
-------------
-*   **Download Required Files:**
-    
-    `./run.sh --link`
-    
-    This command will show the links for required files. Simply download them using your favorite browser.
-
-*   **Start Setup:**
-
-    Now run this command, It will start setup. Simply follow on screen instruction.
-    
-    `./run.sh`
-    
-   
 
 Isn't it simple!! If you can improve this script then please contribute. For more information on how to use FlutterDoc, refer to the my [LinkedIn](https://linkedin.com/in/arrahmanbd).
 
@@ -87,10 +73,10 @@ Demo
 
 ![Script execution](assets/bannar.png)
 
-Contributing
+Contributing 🎁
 ------------
 
-Contributions to this project are welcome. If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+Got ideas brewing in your cauldron of creativity? FlutterDoc welcomes contributions like a hungry unicorn at a glitter buffet! For more fun-filled adventures with FlutterDoc, hop over to my LinkedIn profile. Let's make coding magical again! 🦄✨
 
 License
 -------

@@ -84,10 +84,10 @@ function dir(){
 
 function estimateTime() {
     local size=$1
-    start=1
-    speed=0.13
-    estimate=$(echo "$size * $speed" | bc)
-    echo "$estimate"
+    local start=1
+    local speed=13
+    estimate=$((size * speed / 100))
+    printf "%.2f\n" "$(echo $estimate)"
 }
 
 function onSuccess(){
