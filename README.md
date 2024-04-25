@@ -14,7 +14,7 @@ Before diving into the FlutterDoc wonderland, make sure your system meets the fo
 *  A computer you get from your great great grand father with A snazzy Linux operating system (tried and true on Arch, Ubuntu, Debian, and Kali)
 *  Download Flutter and Android SDK Latest Version from the link below.
 
-    [![FlutterDoctor](assets/android_sdk.png)]([your_link_here](https://github.com/arrahmanbd/flutter-doctor/releases/download/sdk_linux_v.1.0/Sdk.tar.xz))
+    [![FlutterDoctor](assets/android_sdk.png)](https://github.com/arrahmanbd/flutter-doctor/releases/download/sdk_linux_v.1.0/Sdk.tar.xz)
 
     [![FlutterDoctor](assets/flutter_sdk.png)](https://docs.flutter.dev/release/archive?tab=linux)
 
