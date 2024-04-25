@@ -71,7 +71,7 @@ Isn't it simple!! If you can improve this script then please contribute. For mor
 Demo
 -----------
 
-![Script execution](assets/bannar.png)
+![Script execution](assets/screenshot.png)
 
 Contributing 🎁
 ------------
