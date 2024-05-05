@@ -1,7 +1,7 @@
-FlutterDoc
+FlutterDoc [Linux + [Windows](windows/)]
 ==========
 
-![FlutterDoctor](assets/setup.png)
+![FlutterDoctor](assets/banner_linux.png)
 
 Hey there, fellow coder! Welcome to the FlutterDoc extravaganza! 🎉 FlutterDoc is your trusty sidekick, a bash script wizard designed to make installing Flutter on Linux as smooth as butter on a hot pancake! 🥞 With FlutterDoc, you'll be crafting cross-platform masterpieces in no time! Tested and approved on the coolest Linux distros like Arch, Ubuntu, Debian, and even Kali! 🐧
 
@@ -68,15 +68,35 @@ Now that you've summoned the FlutterDoc genie, let's see what tricks it has up i
 
 Isn't it simple!! If you can improve this script then please contribute. For more information on how to use FlutterDoc, refer to the my [LinkedIn](https://linkedin.com/in/arrahmanbd).
 
+## Enable Screen Mirroring 📱
+You can enable screen-mirroring using <b>scrcpy</b>
+### Arch/Manjaro:
+```bash
+sudo pacman -S scrcpy
+```
+### Debian/Ubuntu:
+```bash
+sudo apt install scrcpy
+```
+
+
+
 Demo
 -----------
 
 ![Script execution](assets/screenshot.png)
 
+
 Contributing 🎁
 ------------
 
 Got ideas brewing in your cauldron of creativity? FlutterDoc welcomes contributions like a hungry unicorn at a glitter buffet! For more fun-filled adventures with FlutterDoc, hop over to my LinkedIn profile. Let's make coding magical again! 🦄✨
+
+
+## 🚀  Follow
+[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arrahmanbd)
+[![GitHUb](https://img.shields.io/badge/Github-22272e?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/arrahmanbd)
+[![Facebook](https://img.shields.io/badge/Facebook-0A66C2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/arrahman.dev)
 
 License
 -------
