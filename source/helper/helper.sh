@@ -35,7 +35,7 @@ function checkFiles() {
     if ls ~/Downloads/{flutter_linux*,Sdk*} >/dev/null 2>&1; then
         printS "✔ Ready to install"
     else
-        printS "▶ Did you downloaded flutter & sdk from release?? 🤔 --links"
+        printS "▶ Did you downloaded flutter & sdk from release?? 🤔 \n Show download links using --link"
     fi
     printB "───────────────"
 }
@@ -51,9 +51,7 @@ function showLinks(){
     printB "▣ Flutter SDK:"
     printS "▶ https://docs.flutter.dev/release/archive?tab=linux"
     printB "▣ Android SDK:"
-    printS "▶ https://drive.google.com/file/d/1QhSBbGOIicV4QNit7Umb4k03cm-VyQGD/view?usp=drive_link\nOr,"
-    printS "▶ https://u.pcloud.link/publink/show?code=XZjeFvVZITLzDBzQ1Bmo78wzY32V4bkLpK8X\n"
-    
+    printS "▶ https://github.com/arrahmanbd/flutter-doctor/releases/download/sdk_linux_v.1.0/Sdk.tar.xz"
     continued
     echo
 }

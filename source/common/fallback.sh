@@ -7,7 +7,7 @@ function fallback() {
 }
 function fallbackSteps(){
     printT "Fallback Menu"
-    appmenu "Install Required Files" "Extract Flutter SDK" "Extract Android SDK" "Set Global Path" "Restart Installer"
+    appmenu "Install Additional Packages" "Extract Flutter SDK" "Extract Android SDK" "Set Global Path" "Restart Installer"
     # Read user's choice
     read choice
     # Perform actions based on user's choice
