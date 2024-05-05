@@ -1,4 +1,4 @@
-FlutterDoc [Linux + [Windows](windows/)]
+FlutterDoctor [Linux + [Windows](windows/)]
 ==========
 
 ![FlutterDoctor](assets/banner_linux.png)
@@ -64,9 +64,6 @@ Now that you've summoned the FlutterDoc genie, let's see what tricks it has up i
     `./install.sh --ai`
     
     Just remember, this option is like stepping into the unknown—proceed with caution, brave soul!  ***Not Recommended**
-    
-
-Isn't it simple!! If you can improve this script then please contribute. For more information on how to use FlutterDoc, refer to the my [LinkedIn](https://linkedin.com/in/arrahmanbd).
 
 ## Enable Screen Mirroring 📱
 You can enable screen-mirroring using <b>scrcpy</b>
@@ -79,8 +76,6 @@ sudo pacman -S scrcpy
 sudo apt install scrcpy
 ```
 
-
-
 Demo
 -----------
 
@@ -91,7 +86,6 @@ Contributing 🎁
 ------------
 
 Got ideas brewing in your cauldron of creativity? FlutterDoc welcomes contributions like a hungry unicorn at a glitter buffet! For more fun-filled adventures with FlutterDoc, hop over to my LinkedIn profile. Let's make coding magical again! 🦄✨
-
 
 ## 🚀  Follow
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arrahmanbd)
