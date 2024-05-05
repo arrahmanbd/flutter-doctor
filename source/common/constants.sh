@@ -13,7 +13,7 @@ Cyan='\e[1;36m'         # Cyan
 White='\e[1;37m'        # White
 #APP Menu
 INSTALL="Start Installer"
-DOWNLOAD="I dont have files!"
+DOWNLOAD="Download Required Files!"
 AUTO="Auto(Beta)"
 FALLBACK="Fallback"
 HELP="Help"
