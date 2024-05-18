@@ -14,7 +14,7 @@ That's why I have collected Android SDK Toolchan , build tools, commandline Tool
 Download All of those files:
 
 [![FlutterDoctor](../assets/flutter_sdk.png)](https://docs.flutter.dev/release/archive?tab=windows)
-[![Download Android SDK](../assets/java_jdk.png)](https://files02.tchspt.com/down/jdk-18.0.2.1_windows-x64_bin.exe)
+[![Download Android SDK](../assets/java_jdk.png)](https://www.techspot.com/downloads/2017-java-jdk-18.html)
 
 [![FlutterDoctor](../assets/android_sdk.png)](https://github.com/arrahmanbd/flutter-doctor/releases/download/sdk_win_v1.0/Android_SDK.rar)
 
